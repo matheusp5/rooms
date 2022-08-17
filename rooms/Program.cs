@@ -17,6 +17,8 @@ namespace rooms
             Console.WriteLine(reservation);
 
             Console.WriteLine();
+            Console.WriteLine("----------------------");
+            Console.WriteLine();
 
             Console.Write("Insira a nova data de checkin? (dd/mm/yyyy): ");
             checkin = DateTime.Parse(Console.ReadLine());
